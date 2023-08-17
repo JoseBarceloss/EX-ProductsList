@@ -1,3 +1,5 @@
+import './Product.css';
+
 type ProductInfoProps = {
   productInfo: {
     id: number,
@@ -20,11 +22,11 @@ function Product({ productInfo }: ProductInfoProps) {
     image,
   } = productInfo;
   return (
-    <li>
+    <li className="product-cnt">
       <h2>{title}</h2>
       <img src={ image } alt={ title } />
       <p>{description}</p>
-      <h2>{`R$${price}`}</h2>
+      <h3>{`R$${price}`}</h3>
     </li>
   );
 }

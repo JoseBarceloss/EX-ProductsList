@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.945), rgb(51, 50, 50));
 }
