@@ -1,48 +1,45 @@
 .product-cnt {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .product-cnt img {
-    width: 400px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid black;
-    box-shadow: 0 0 10px rgba(114, 113, 113, 0.7), 0 0 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(114, 113, 113, 0.7), 0 0 20px rgba(0, 0, 0, 0.2);
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+  width: 400px;
 }
 
 .product-cnt img:hover {
-    transform: scale(1.04); 
-    cursor: pointer;
+  cursor: pointer;
+  transform: scale(1.04);
 }
 
 .product-cnt h2 {
-    background-image: linear-gradient(45deg, #ff6b6b, #ac8cf8, #91f0ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-size: 26px;
-    
-    margin: 8px;
-    text-align: center;
-    max-width: 400px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(45deg, #ff6b6b, #ac8cf8, #91f0ff);
+  color: transparent;
+  font-size: 26px;
+  margin: 8px;
+  max-width: 400px;
+  text-align: center;
 }
 
 .product-cnt p {
-
-    text-align: center;
-
-    color: white;
-    font-size: 12px;
-    margin: 10px;
-    max-width: 400px;
+  color: white;
+  font-size: 12px;
+  margin: 10px;
+  max-width: 400px;
+  text-align: center;
 }
 
 .product-cnt h3 {
-    color: rgb(5, 160, 5);
+  color: rgb(5, 160, 5);
 }
